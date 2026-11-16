@@ -33,5 +33,3 @@ O assistente identifica assuntos por palavras e expressões e gera respostas com
 
 - [Análise energética](docs/analise_energetica.md) — cenário, dados, fórmulas, tabela comparativa, viabilidade e fontes.
 - [Testes com usuários](docs/testes_com_usuarios.md) — tarefas, perguntas de avaliação e ficha de registro a preencher após as sessões.
-- [Roteiro do vídeo](docs/roteiro_video.md) — gravação em aproximadamente 2 min 45 s.
-- [Entrega no Portal](ENTREGA.txt) — identificação do grupo e campos para os links finais.
