@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Compare iluminação LED e solar por assinatura no Citizen Assist AI.">
+  <title>Citizen Assist AI | Energia</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="energia.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="top"><div class="wrap brand">Citizen Assist AI <span>Energia residencial</span></div></header>
+  <main class="wrap">
+    <section class="intro" aria-labelledby="title">
+      <h1>Como reduzir sua conta de luz?</h1>
+      <p>Compare a troca de lâmpadas por LED e a energia solar por assinatura em um cenário de quem está começando a morar por conta própria.</p>
+    </section>
+    <div class="layout">
+      <section class="panel" aria-labelledby="chat-title">
+        <div class="panel-head"><h2 id="chat-title">Assistente de energia</h2></div>
+        <div class="chat" id="chat" role="log" aria-label="Conversa com o assistente" tabindex="0"></div>
+        <div class="composer">
+          <div class="examples" aria-label="Perguntas sugeridas">
+            <button type="button" data-question="Qual opção compensa mais?">Comparar opções</button>
+            <button type="button" data-question="Quanto economizo com LED?">Economia com LED</button>
+            <button type="button" data-question="Como funciona a solar por assinatura para quem mora de aluguel?">Solar no aluguel</button>
+            <button type="button" data-question="Quais são os impactos ambientais?">Impactos ambientais</button>
+          </div>
+          <form id="question-form">
+            <label for="question" class="sr-only">Sua pergunta</label>
+            <input id="question" name="question" placeholder="Escreva sua pergunta" maxlength="240" required autocomplete="off">
+            <button class="send" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+      <aside class="panel scenario" aria-labelledby="scenario-title">
+        <h2 id="scenario-title">Cenário de referência</h2>
+        <p id="scenario-notes" class="muted"></p>
+        <h3>Economia líquida no primeiro ano</h3>
+        <dl class="results" id="results"></dl>
+        <details><summary>Ver premissas e limites</summary><p id="assumptions"></p></details>
+        <details><summary>Ver fontes</summary><ul id="sources"></ul></details>
+      </aside>
+    </div>
+  </main>
+</body>
+</html>
