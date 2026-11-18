@@ -33,3 +33,7 @@ O assistente identifica assuntos por palavras e expressões e gera respostas com
 
 - [Análise energética](docs/analise_energetica.md) — cenário, dados, fórmulas, tabela comparativa, viabilidade e fontes.
 - [Testes com usuários](docs/testes_com_usuarios.md) — tarefas, perguntas de avaliação e ficha de registro a preencher após as sessões.
+
+## Vídeo técnico
+
+[Assistir à apresentação](https://youtu.be/4C7YulTINo0)
